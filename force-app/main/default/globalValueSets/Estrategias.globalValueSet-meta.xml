@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Andragogía</fullName>
+        <default>false</default>
+        <label>Andragogía</label>
+    </customValue>
+    <customValue>
+        <fullName>Aprendizaje Acelerado</fullName>
+        <default>false</default>
+        <label>Aprendizaje Acelerado</label>
+    </customValue>
+    <customValue>
+        <fullName>Aprendizaje Basado en Proyectos</fullName>
+        <default>false</default>
+        <label>Aprendizaje Basado en Proyectos</label>
+    </customValue>
+    <customValue>
+        <fullName>Aprendizaje cooperativo</fullName>
+        <default>false</default>
+        <label>Aprendizaje cooperativo</label>
+    </customValue>
+    <customValue>
+        <fullName>Aprendizaje en servicio</fullName>
+        <default>false</default>
+        <label>Aprendizaje en servicio</label>
+    </customValue>
+    <customValue>
+        <fullName>Aprendizaje socioemocional</fullName>
+        <default>false</default>
+        <label>Aprendizaje socioemocional</label>
+    </customValue>
+    <customValue>
+        <fullName>Clarificación de valores</fullName>
+        <default>false</default>
+        <label>Clarificación de valores</label>
+    </customValue>
+    <customValue>
+        <fullName>Comprensión lectora</fullName>
+        <default>false</default>
+        <label>Comprensión lectora</label>
+    </customValue>
+    <customValue>
+        <fullName>Desarrollo conceptual</fullName>
+        <default>false</default>
+        <label>Desarrollo conceptual</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación a distancia</fullName>
+        <default>false</default>
+        <label>Educación a distancia</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación Montessori</fullName>
+        <default>false</default>
+        <label>Educación Montessori</label>
+    </customValue>
+    <customValue>
+        <fullName>Enseñanza contextualizada</fullName>
+        <default>false</default>
+        <label>Enseñanza contextualizada</label>
+    </customValue>
+    <customValue>
+        <fullName>Enseñanza lúdica</fullName>
+        <default>false</default>
+        <label>Enseñanza lúdica</label>
+    </customValue>
+    <customValue>
+        <fullName>Escritura creativa</fullName>
+        <default>false</default>
+        <label>Escritura creativa</label>
+    </customValue>
+    <customValue>
+        <fullName>Escritura interactiva</fullName>
+        <default>false</default>
+        <label>Escritura interactiva</label>
+    </customValue>
+    <customValue>
+        <fullName>Indagación jurisprudencial</fullName>
+        <default>false</default>
+        <label>Indagación jurisprudencial</label>
+    </customValue>
+    <customValue>
+        <fullName>Instrucción diferenciada</fullName>
+        <default>false</default>
+        <label>Instrucción diferenciada</label>
+    </customValue>
+    <customValue>
+        <fullName>Integración curricular</fullName>
+        <default>false</default>
+        <label>Integración curricular</label>
+    </customValue>
+    <customValue>
+        <fullName>Integración de las Tecnología de la Información y la Comunicación (TIC)</fullName>
+        <default>false</default>
+        <label>Integración de las Tecnología de la Información y la Comunicación (TIC)</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Experiences</fullName>
+        <default>false</default>
+        <label>Language Experiences</label>
+    </customValue>
+    <customValue>
+        <fullName>Mastery Learning</fullName>
+        <default>false</default>
+        <label>Mastery Learning</label>
+    </customValue>
+    <customValue>
+        <fullName>Positive Behavior Interventions and Supports (PBIS)</fullName>
+        <default>false</default>
+        <label>Positive Behavior Interventions and Supports (PBIS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Response to Intervention (RTI)</fullName>
+        <default>false</default>
+        <label>Response to Intervention (RTI)</label>
+    </customValue>
+    <customValue>
+        <fullName>STEAM</fullName>
+        <default>false</default>
+        <label>STEAM</label>
+    </customValue>
+    <customValue>
+        <fullName>STEM</fullName>
+        <default>false</default>
+        <label>STEM</label>
+    </customValue>
+    <customValue>
+        <fullName>STREAM</fullName>
+        <default>false</default>
+        <label>STREAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Tecnología</fullName>
+        <default>false</default>
+        <label>Tecnología</label>
+    </customValue>
+    <masterLabel>Estrategias</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

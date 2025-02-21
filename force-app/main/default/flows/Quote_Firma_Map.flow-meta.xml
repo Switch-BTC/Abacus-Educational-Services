@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Quote - Firma Map {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Quote - Firma Map</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Firma</name>
+        <label>Update Firma</label>
+        <locationX>791</locationX>
+        <locationY>443</locationY>
+        <inputAssignments>
+            <field>Test_Firma__c</field>
+            <value>
+                <elementReference>$Record.Opportunity.Vendedor__r.Firma__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>650</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Update_Firma</targetReference>
+        </connector>
+        <object>Quote</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
