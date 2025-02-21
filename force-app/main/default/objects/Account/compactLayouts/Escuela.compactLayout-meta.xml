@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escuela</fullName>
+    <fields>Name</fields>
+    <fields>Phone</fields>
+    <fields>Tipo_de_escuela__c</fields>
+    <fields>C_digo__c</fields>
+    <fields>Nivel__c</fields>
+    <fields>Municipio__c</fields>
+    <fields>Regi_n__c</fields>
+    <label>Escuela</label>
+</CompactLayout>

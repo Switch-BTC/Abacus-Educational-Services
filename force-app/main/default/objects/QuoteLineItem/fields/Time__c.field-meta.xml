@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(
+   CASE(
+       MOD(HOUR(Hora_estimada__c), 12), 
+       0, 12, 
+       MOD(HOUR(Hora_estimada__c), 12)
+   )
+) 
+&amp; &quot;:&quot; &amp; 
+IF(MINUTE(Hora_estimada__c) &lt; 10, &quot;0&quot;, &quot;&quot;) &amp; TEXT(MINUTE(Hora_estimada__c)) 
+&amp; IF(HOUR(Hora_estimada__c) &gt;= 12, &quot; PM&quot;, &quot; AM&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
