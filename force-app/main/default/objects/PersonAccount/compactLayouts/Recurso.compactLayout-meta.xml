@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurso</fullName>
+    <fields>Name</fields>
+    <fields>PersonEmail</fields>
+    <fields>PersonMobilePhone</fields>
+    <fields>Active__c</fields>
+    <fields>Nivel_de_educaci_n__c</fields>
+    <label>Recurso</label>
+</CompactLayout>

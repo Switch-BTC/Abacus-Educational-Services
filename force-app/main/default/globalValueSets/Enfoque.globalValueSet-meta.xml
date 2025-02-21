@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aprendices de español como segundo idioma e inmigrantes</fullName>
+        <default>false</default>
+        <label>Aprendices de español como segundo idioma e inmigrantes</label>
+    </customValue>
+    <customValue>
+        <fullName>Bellas Artes</fullName>
+        <default>false</default>
+        <label>Bellas Artes</label>
+    </customValue>
+    <customValue>
+        <fullName>Biblioteca Escolar</fullName>
+        <default>false</default>
+        <label>Biblioteca Escolar</label>
+    </customValue>
+    <customValue>
+        <fullName>Ciencias</fullName>
+        <default>false</default>
+        <label>Ciencias</label>
+    </customValue>
+    <customValue>
+        <fullName>Consejería Profesional</fullName>
+        <default>false</default>
+        <label>Consejería Profesional</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación Especial</fullName>
+        <default>false</default>
+        <label>Educación Especial</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación Física</fullName>
+        <default>false</default>
+        <label>Educación Física</label>
+    </customValue>
+    <customValue>
+        <fullName>Educación Temprana</fullName>
+        <default>false</default>
+        <label>Educación Temprana</label>
+    </customValue>
+    <customValue>
+        <fullName>Español</fullName>
+        <default>false</default>
+        <label>Español</label>
+    </customValue>
+    <customValue>
+        <fullName>Inglés</fullName>
+        <default>false</default>
+        <label>Inglés</label>
+    </customValue>
+    <customValue>
+        <fullName>Matemáticas</fullName>
+        <default>false</default>
+        <label>Matemáticas</label>
+    </customValue>
+    <customValue>
+        <fullName>Montessori</fullName>
+        <default>false</default>
+        <label>Montessori</label>
+    </customValue>
+    <customValue>
+        <fullName>Psicología en el ámbito escolar</fullName>
+        <default>false</default>
+        <label>Psicología en el ámbito escolar</label>
+    </customValue>
+    <customValue>
+        <fullName>Salud Escolar</fullName>
+        <default>false</default>
+        <label>Salud Escolar</label>
+    </customValue>
+    <customValue>
+        <fullName>Tecnología</fullName>
+        <default>false</default>
+        <label>Tecnología</label>
+    </customValue>
+    <customValue>
+        <fullName>Trabajo Social</fullName>
+        <default>false</default>
+        <label>Trabajo Social</label>
+    </customValue>
+    <masterLabel>Enfoque</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

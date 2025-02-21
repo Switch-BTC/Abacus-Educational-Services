@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Por orden completada</fullName>
+        <default>false</default>
+        <label>Por orden completada</label>
+    </customValue>
+    <customValue>
+        <fullName>Por servicio ofrecido</fullName>
+        <default>false</default>
+        <label>Por servicio ofrecido</label>
+    </customValue>
+    <masterLabel>Tipo de Factura</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

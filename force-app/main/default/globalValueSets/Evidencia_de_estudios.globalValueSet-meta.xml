@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Certificado</fullName>
+        <default>false</default>
+        <label>Certificado</label>
+    </customValue>
+    <customValue>
+        <fullName>Diploma</fullName>
+        <default>false</default>
+        <label>Diploma</label>
+    </customValue>
+    <customValue>
+        <fullName>Transcripción de Crédito</fullName>
+        <default>false</default>
+        <label>Transcripción de Crédito</label>
+    </customValue>
+    <masterLabel>Evidencia de estudios</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
