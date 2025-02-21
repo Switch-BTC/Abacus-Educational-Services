@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estrategia__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Taller__r.Estrategia__c, &quot;Andragogía&quot;), &quot;Andragogía; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Aprendizaje Acelerado&quot;), &quot;Aprendizaje Acelerado; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Aprendizaje Basado en Proyectos&quot;), &quot;Aprendizaje Basado en Proyectos; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Aprendizaje cooperativo&quot;), &quot;Aprendizaje cooperativo; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Aprendizaje en servicio&quot;), &quot;Aprendizaje en servicio; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Aprendizaje socioemocional&quot;), &quot;Aprendizaje socioemocional; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Clarificación de valores&quot;), &quot;Clarificación de valores; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Comprensión lectora&quot;), &quot;Comprensión lectora; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Desarrollo conceptual&quot;), &quot;Desarrollo conceptual; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Educación a distancia&quot;), &quot;Educación a distancia; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Educación Montessori&quot;), &quot;Educación Montessori; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Enseñanza contextualizada&quot;), &quot;Enseñanza contextualizada; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Enseñanza lúdica&quot;), &quot;Enseñanza lúdica; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Escritura creativa&quot;), &quot;Escritura creativa; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Escritura interactiva&quot;), &quot;Escritura interactiva; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Indagación jurisprudencial&quot;), &quot;Indagación jurisprudencial; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Instrucción diferenciada&quot;), &quot;Instrucción diferenciada; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Integración curricular&quot;), &quot;Integración curricular; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Integración de las Tecnología de la Información y la Comunicación (TIC)&quot;), &quot;Integración de las TIC; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Language Experiences&quot;), &quot;Language Experiences; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Mastery Learning&quot;), &quot;Mastery Learning; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Positive Behavior Interventions and Supports (PBIS)&quot;), &quot;PBIS; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Response to Intervention (RTI)&quot;), &quot;RTI; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;STEAM&quot;), &quot;STEAM; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;STEM&quot;), &quot;STEM; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;STREAM&quot;), &quot;STREAM; &quot;, &quot;&quot;) &amp;
+IF(INCLUDES(Taller__r.Estrategia__c, &quot;Tecnología&quot;), &quot;Tecnología; &quot;, &quot;&quot;)</formula>
+    <label>Estrategia</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

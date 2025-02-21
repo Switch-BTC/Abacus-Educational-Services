@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profesi_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Profesión</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>Tallerista</fullName>
+                <default>false</default>
+                <label>Tallerista</label>
+            </value>
+            <value>
+                <fullName>Coordinador</fullName>
+                <default>false</default>
+                <label>Coordinador</label>
+            </value>
+            <value>
+                <fullName>Psicólogo</fullName>
+                <default>false</default>
+                <label>Psicólogo</label>
+            </value>
+            <value>
+                <fullName>Trabajador Social</fullName>
+                <default>false</default>
+                <label>Trabajador Social</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
