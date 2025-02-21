@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contracts_DE</fullName>
+    <fields>ContractNumber</fields>
+    <fields>Status</fields>
+    <fields>StartDate</fields>
+    <fields>EndDate</fields>
+    <fields>Amount_new__c</fields>
+    <fields>Invoiced_Amount_New__c</fields>
+    <fields>Balance__c</fields>
+    <label>Contracts DE</label>
+</CompactLayout>
